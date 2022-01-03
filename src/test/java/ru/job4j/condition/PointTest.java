@@ -19,7 +19,7 @@ public class PointTest {
     }
 
     @Test
-    public void when30to02then36() {
+    public void when30to02then3dot6() {
         double expected = 3.6;
         int x1 = 3;
         int y1 = 0;
