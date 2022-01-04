@@ -40,10 +40,10 @@ public class FindLoopTest {
     public void whenNotFind() {
         int[] data = new int[] {5, 2, 10, 2, 4};
         int el = 7;
-        int start = 2;
-        int finish = 4;
+        int start = 0;
+        int finish = 3;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 3;
-        Assert.assertNotEquals(expected, result);
+        int expected = -1;
+        Assert.assertEquals(expected, result);
     }
 }
